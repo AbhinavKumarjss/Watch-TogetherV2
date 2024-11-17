@@ -1,0 +1,85 @@
+#Video-container{
+   
+    display: flex;
+    flex-direction: column;
+ overflow: hidden;
+min-width: fit-content;
+}
+#Video-container-menu{
+    position: relative;
+    height: 10vh;
+    width: 100%;
+    overflow: hidden;
+    min-height: fit-content;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+
+    justify-content: space-around;
+   
+  
+    align-items: center;
+    img{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        opacity: 0.5;
+    }
+    input{
+        width: 30vw;
+        outline: none;
+        background-color: rgb(20, 20, 20);
+        border: none;
+        height: 40px;
+        border-radius: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: white;
+        font-size: 1rem;
+    }
+    #Video-container-label{
+        color: rgb(114, 114, 114);
+        font-size: 1rem;
+        padding-left: 3%;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+#Video-container-input-container{
+    min-width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#room-info-btn{
+transition: all 0.4s;
+
+}
+
+
+
+#room-info{
+  margin: 5px;
+    transition: all 0.4s;
+
+    display: flex;
+    flex-direction: column;
+    color: rgb(174, 174, 174);
+    font-size: 0.8rem;
+   letter-spacing: 3px;
+    padding: 10px;
+    
+    border-radius: 10px;
+    cursor: default;
+}
+#room-menu-hider{
+    transition: all 0.4s;
+    position: absolute;
+    background-color: rgb(14, 14, 14);
+    color: rgb(181, 24, 103);
+    transform:translateX(-80%);
+
+    border-radius: 50px;
+
+}

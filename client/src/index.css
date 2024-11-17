@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Avant Garde;
+  font-style: normal;
+  font-weight: 300;
+  src: url(/fonts/AVANTGARDE.woff2) format("woff2")
+}
+*{
+  margin: 0px;
+  font-family: Avant Garde, sans-serif;
+}
+body{
+  background-color: black;
+}
+#root{
+  overflow-x: hidden;
+  scrollbar-width: 0px;
+}

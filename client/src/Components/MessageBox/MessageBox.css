@@ -1,0 +1,56 @@
+#Message-box {
+
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: rgb(20, 20, 20);
+    padding: 10px;
+    color: rgb(159, 159, 159);
+    letter-spacing: 3px;
+    border-radius: 10px;
+    button{
+        background-color: rgb(36, 36, 36);
+        color: rgb(227, 227, 227);
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.4s;
+        letter-spacing: 2px;
+    }
+    button:hover{
+        background-color: rgb(36, 36, 36);
+        color: rgb(232, 232, 232);
+     
+        filter: drop-shadow(2px 2px 4px #000000cf);
+    }
+    input {
+        margin: 20px;
+        background-color: rgb(29, 29, 29);
+        outline: none;
+        border: none;
+        height: 15px;
+        letter-spacing: 3px;
+        color: rgb(225, 225, 225);
+        padding: 5px;
+        font-size: 0.9rem;
+        border-radius: 5px;
+    }
+}
+
+#Message-box-background {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(9, 9, 9, 0.663);
+}
+
+#Message-box-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}

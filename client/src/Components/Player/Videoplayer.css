@@ -1,0 +1,40 @@
+#Video-Player-Container{
+    width: 100%;
+    height: 100%;
+   
+}
+.video-react{
+    width: 100% !important;
+    height: 100% !important;
+}
+.video-react-video{
+    width: 100% !important;
+    height: 100% !important;
+}
+.video-react-big-play-button{
+border: none !important;
+width: 100px !important;
+background-color: transparent !important;
+
+filter: drop-shadow(2px 2px 6px #0000007b);
+}
+.video-react-control-text{
+    
+}
+.video-react-big-play-button:before{
+    font-size: 100px;
+}
+.video-react-control-bar{
+    background-color: transparent !important;
+}
+.video-react-slider{
+
+        filter: drop-shadow(2px 2px 3px #0000007b);
+        background-color: rgb(29, 29, 29) !important;
+  
+}
+.video-react-load-progress{
+    div{
+        background: linear-gradient( 90deg, rgb(158, 85, 160), rgb(239, 62, 58)) !important;
+    }
+}

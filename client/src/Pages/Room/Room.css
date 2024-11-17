@@ -1,0 +1,11 @@
+#Room-container{
+   
+    display: flex;
+    #Video-container{
+        width: 80vw;
+        display: flex
+    }
+
+   
+}
+

@@ -1,0 +1,36 @@
+#navbar {
+    padding: 25px;
+
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(74, 74, 74);
+
+}
+
+#watchtogether-logo-navbar {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+
+    color:rgb(239, 62, 58);
+    filter: drop-shadow(2px 2px 2px #000000);
+    align-items: center;
+}
+
+#watchtogether-btn {
+    background: linear-gradient(273.58deg, #9e55a0, #ef3e3a);
+    color: white;
+    font-size: 15px;
+    border: none;
+    filter: drop-shadow(2px 2px 4px #0000007b);
+    border-radius: 4px;
+    padding:10px 20px;
+   cursor: pointer;
+ 
+}
