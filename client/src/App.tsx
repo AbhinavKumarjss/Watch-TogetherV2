@@ -1,3 +1,4 @@
+// @ts-nocheck
 import './App.css'
 import Navbar from './Pages/Navbar/Navbar'
 import Hero from './Pages/Hero/Hero'

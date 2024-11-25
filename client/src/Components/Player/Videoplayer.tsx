@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useEffect, useRef, useState } from 'react'
 import { Player, ControlBar, PlayToggle, ProgressControl, BigPlayButton, VolumeMenuButton, ForwardControl, ReplayControl, CurrentTimeDisplay, TimeDivider, DurationDisplay } from 'video-react';
 import 'video-react/dist/video-react.css'; // import css

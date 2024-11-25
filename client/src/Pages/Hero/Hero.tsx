@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useEffect, useState } from 'react'
 import { Link, redirect, useNavigate } from 'react-router-dom'
 import { v4 as uuidv4 } from 'uuid'

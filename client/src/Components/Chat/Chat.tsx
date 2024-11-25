@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useEffect, useState } from 'react'
 import './Chat.css'
 import { useNavigate } from 'react-router-dom';

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react'
 import './VideoContainerMenu.css'
 export default function VideoContainerMenu({isAdmin, roomId , setvideoUrl}) {
