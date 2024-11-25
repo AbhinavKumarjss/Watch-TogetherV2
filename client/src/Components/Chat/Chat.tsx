@@ -72,7 +72,7 @@ export default function Chat({ roomId, Socket }) {
   };
 
   return (
-    <div>
+
       <div id='Chat-container'>
         <div id='Chat-navbar'>
           <label htmlFor="Name">{name}</label>
@@ -114,6 +114,6 @@ export default function Chat({ roomId, Socket }) {
           <button onClick={sendMessage} >Send</button>
         </div>
       </div>
-    </div>
+  
   );
 }

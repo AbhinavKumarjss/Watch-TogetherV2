@@ -4,6 +4,9 @@
     background-color: rgb(10, 10, 10);
     color: rgb(231, 231, 231);
     width: 20vw;
+    @media screen and (max-width: 700px){
+       width: 100vw;
+    }
     height: 100vh;
     padding: 0px 10px;
 }
@@ -22,6 +25,9 @@
     label {
         letter-spacing: 0.3rem;
         font-size: 1vw;
+        @media screen and (max-width: 700px){
+        font-size: 1rem;
+        }
         color: rgb(255, 168, 36);
     }
 
@@ -88,7 +94,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    @media screen and (max-width: 700px){
+       
+    justify-content: space-evenly;
+        }
     input {
         width: 70%;
         height: 50%;
@@ -98,6 +107,7 @@
         background-color: rgb(32, 32, 32);
         color: rgb(231, 231, 231);
         outline: none;
+      
     }
 
     button {
@@ -110,6 +120,7 @@
         border-radius: 4px;
         cursor: pointer;
         transition: 0.3s all;
+        
     }
 
     button:hover {

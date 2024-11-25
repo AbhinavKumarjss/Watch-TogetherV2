@@ -1,11 +1,13 @@
 #Video-Player-Container{
     width: 100%;
     height: 100%;
+    min-height: 80vh;
    
 }
 .video-react{
     width: 100% !important;
     height: 100% !important;
+    min-height: 80vh;
 }
 .video-react-video{
     width: 100% !important;

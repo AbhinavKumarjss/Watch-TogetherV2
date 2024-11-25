@@ -4,6 +4,15 @@
     #Video-container{
         width: 80vw;
         display: flex
+        
+    }
+    @media screen and (max-width: 700px){
+        flex-direction: column;
+        #Video-container{
+            width: 100vw;
+            display: flex
+            
+        }
     }
 
    
