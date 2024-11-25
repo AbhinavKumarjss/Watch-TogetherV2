@@ -63,9 +63,7 @@ export default function Hero() {
           <br />
           <h4>Stream youtube videos flawlessly</h4>
           <br />
-          <h4>ScreenShare your device with friends</h4>
-          <br />
-          <h4>Audio chat and better UI experience</h4>
+          <h4>Better UI experience</h4>
           <br />
           <div id='hero-room-container'>
 
