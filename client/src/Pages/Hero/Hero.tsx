@@ -61,7 +61,9 @@ export default function Hero() {
           <br />
           <h4>Watch movies using a download link in realtime</h4>
           <br />
-          <h4>Stream youtube videos flawlessly</h4>
+          <h4>Stream videos flawlessly with friends</h4>
+          <br />
+          <h4>Realtime chat with friends</h4>
           <br />
           <h4>Better UI experience</h4>
           <br />
